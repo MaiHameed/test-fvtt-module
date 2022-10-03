@@ -2,7 +2,7 @@
     "id": "test-fvtt-module",
     "title": "Dan and Mai's Test Module",
     "description": "Fuck around and find out",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "manifest": "https://raw.githubusercontent.com/MaiHameed/test-fvtt-module/main/module.json",
     "download": "https://github.com/MaiHameed/test-fvtt-module/archive/refs/tags/alpha.zip",
     "url": "https://github.com/MaiHameed/test-fvtt-module"
