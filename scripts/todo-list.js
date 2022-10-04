@@ -19,7 +19,6 @@ class ToDoListData {
     const newToDo = {
       isDone: false,
       id: foundry.utils.randomID(16),
-      userId,
       ...toDoData,
     }
 

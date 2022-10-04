@@ -2,7 +2,7 @@
     "id": "test-fvtt-module",
     "title": "Dan and Mai's Test Module",
     "description": "Just added todo-list to module",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "scripts": [
         "scripts/index.js",
         "scripts/todo-list.js"
