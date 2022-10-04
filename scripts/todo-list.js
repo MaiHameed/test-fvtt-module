@@ -12,10 +12,10 @@ class ToDoList {
 
 class ToDoListData {
   static getToDosForUser() {
-    return game.user().getFlag(ToDoList.ID, ToDoList.FLAGS.TODOS);
+    return game.user.getFlag(ToDoList.ID, ToDoList.FLAGS.TODOS);
   }
 
-  static createToDo(toDoData) {
+  static async createToDo(toDoData) {
     const newToDo = {
       isDone: false,
       id: foundry.utils.randomID(16),
@@ -26,6 +26,6 @@ class ToDoListData {
       [newToDo.id]: newToDo
     }
 
-    return game.user().setFlag(ToDoList.ID, ToDoList.FLAGS.TODOS, newToDos);
+    await game.user.setFlag(ToDoList.ID, ToDoList.FLAGS.TODOS, newToDos);
   }
 }
