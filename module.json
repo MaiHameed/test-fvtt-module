@@ -2,7 +2,7 @@
     "id": "test-fvtt-module",
     "title": "Dan and Mai's Test Module",
     "description": "Just added todo-list to module",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "compatibility": {
         "minimum": "10",
         "verified": "10",

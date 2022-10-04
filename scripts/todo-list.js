@@ -1,5 +1,5 @@
 class ToDoList {
-  static ID = 'todo-list';
+  static ID = 'test-fvtt-module';
   
   static FLAGS = {
     TODOS: 'todos'
